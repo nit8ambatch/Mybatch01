@@ -1,0 +1,8 @@
+create one instance jenkin sever allowing port 8080
+click ssh-client copy and connect to mobaxterm
+cd Desktop
+ssh -i "server.pem" ec2-user@ec2-54-210-207-176.compute-1.amazonaws.com
+go to browser type jenkins.io
+click on download slect 2.452.2 version click redhat/fedora/centos
+copy below comands:
+vi jenkins.sh
